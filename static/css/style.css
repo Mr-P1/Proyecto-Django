@@ -1,0 +1,187 @@
+body
+{
+    background-color: #67ce6c;
+}
+
+nav
+{
+    background-color: rgba(44, 213, 44, 0.767);
+}
+
+.nav-link
+{
+    color: rgba(255, 255, 255, 0.733);
+}
+
+.nav-link:hover
+{
+   background-color: rgba(8, 83, 8, 0.767);
+   color: white;
+   border-radius: 10px;
+}
+
+
+.btn
+{
+    background-color: rgb(255, 255, 255);
+}
+
+.btn:hover
+{
+    color: black;
+    background-color: rgba(13, 138, 13, 0.767);
+    border: 1px solid black; 
+    
+}   
+
+.carro .btn
+{
+    color: rgba(0, 0, 0, 0.616);
+    margin: 3px 15px;
+    padding: 2.8px;
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgba(0, 0, 0, 0.336);  
+    
+} 
+
+
+
+.carro .btn:hover
+{
+    background: rgba(8, 83, 8, 0.767);
+
+} 
+
+.usuario .btn{
+    color: rgba(0, 0, 0, 0.616);
+    margin: 5px  16px;
+    padding: 2.8px;
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgba(0, 0, 0, 0.336); 
+} 
+
+
+.slide img
+{
+    height: 70vh;
+}
+
+.slide img 
+{
+    border-top: 1px solid green;
+    border-bottom: 1px solid green;
+}
+
+
+.carousel-control-next-icon {
+    background-color: rgb(78, 117, 81);
+}
+.carousel-control-prev-icon {
+    background-color:rgb(78, 117, 81);
+}  
+
+.card-border
+{
+    border:solid 5px white;
+    border-radius: 20px;
+    overflow: hidden;
+    transition: all ease-out 0.2s;
+}
+
+.card-border:hover
+{
+    transform: scale(1.01);
+}
+
+.btn-primary{
+    background-color: rgb(0, 4, 255); 
+}
+
+.separator-ribbon
+{
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+    z-index: 2;
+    
+}
+
+.separator-ribbon .content 
+{
+    
+    width: 150%;
+    height: 80px;
+    margin-left: -25%;
+    border-bottom-left-radius: 50%;
+    border-bottom-right-radius: 50%;
+    background: #198754;
+
+}
+
+
+
+.pie-pagina{
+    width: 100%;
+    background-color: rgb(78, 117, 81);
+}
+.pie-pagina .grupo-1{
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display:grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap:50px;
+    padding: 45px 0px;
+}
+.pie-pagina .grupo-1 .box figure{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pie-pagina .grupo-1 .box figure img{
+    width: 250px;
+}
+.pie-pagina .grupo-1 .box h2{
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 20px;
+}
+.pie-pagina .grupo-1 .box p{
+    color: #efefef;
+    margin-bottom: 10px;
+}
+.pie-pagina .grupo-1 .red-social a{
+    display: inline-block;
+    text-decoration: none;
+    width: 45px;
+    height: 45px;
+    line-height: 45px;
+    color: #fff;
+    margin-right: 10px;
+    background-color: #0d2033;
+    text-align: center;
+    transition: all 300ms ease;
+}
+.pie-pagina .grupo-1 .red-social a:hover{
+    color: aqua;
+}
+
+
+figure a img
+{
+    width: 100px ;
+    height: 100px;
+}
+
+
+
+@media screen and (max-width:800px){
+    .pie-pagina .grupo-1{
+        width: 90%;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap:30px;
+        padding: 35px 0px;
+    }
+}
